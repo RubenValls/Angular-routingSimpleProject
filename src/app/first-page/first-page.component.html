@@ -1,2 +1,6 @@
 <app-header/>
-<p>first-page works!</p>
+<div class="container mt-5 w-50">
+    <label for="username" class="form-label">Username</label>
+    <input type="text" class="form-control" id="username" required>
+    <a routerLink="/secondPage-component/{{username}}"><button class="btn btn-dark" (click)="saveParams()">Submit form</button></a>
+</div>

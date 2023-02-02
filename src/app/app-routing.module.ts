@@ -6,7 +6,7 @@ import {FirstPageComponent} from './first-page/first-page.component'
 
 const routes: Routes = [
   {path: '', component: FirstPageComponent},
-  {path: 'secondPage-component', component: SecondPageComponent},
+  {path: 'secondPage-component/:username', component: SecondPageComponent},
   {path: 'thirdPage-component', component: ThirdPageComponent}
 ];
 
