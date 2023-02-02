@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, ParamMap } from '@angular/router'
-
-const urlParams = new URLSearchParams(window.location.search);
+import { ActivatedRoute} from '@angular/router'
 
 @Component({
   selector: 'app-second-page',
