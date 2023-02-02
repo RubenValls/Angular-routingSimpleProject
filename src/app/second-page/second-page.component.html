@@ -1,1 +1,9 @@
-<p>second-page works!</p>
+<app-header/>
+<h3 class="text-center">Welcome, {{username}}</h3>
+<div class="container mt-5 w-50">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" required>
+    <label for="age" class="form-label">Age</label>
+    <input type="number" class="form-control" id="age" min="1" required>
+    <a routerLink="/thirdPage-component/{{username}}/{{name}}/{{age}}"><button class="btn btn-dark mt-3" (click)="saveParams()">Submit form</button></a>
+</div>

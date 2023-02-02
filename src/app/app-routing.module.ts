@@ -7,7 +7,7 @@ import {FirstPageComponent} from './first-page/first-page.component'
 const routes: Routes = [
   {path: '', component: FirstPageComponent},
   {path: 'secondPage-component/:username', component: SecondPageComponent},
-  {path: 'thirdPage-component', component: ThirdPageComponent}
+  {path: 'thirdPage-component/:username/:name/:age', component: ThirdPageComponent}
 ];
 
 @NgModule({
